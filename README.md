@@ -19,3 +19,9 @@ Mapeamento: Todas as tabelas devem ser representadas no NoSQL. Além disso, o
 grupo deverá discutir como garantir as restrições definidas (restrição de chave, de
 integridade referencial, de domínio e not null) e implementar a representação das
 entidades garantindo essas restrições.
+
+# Para testar
+```
+pip install pymongo
+```
+Depois conectar a sua EC2 com as coleções.
