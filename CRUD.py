@@ -240,6 +240,7 @@ if __name__ == "__main__":
                 teste.inserir_usuario()                
 
             case "2":
+                # If para ver em qual coleção quero fazer a busca...
                 cpf_busca = input("Digite o CPF do usuário para buscar: ").strip()
                 teste.buscar_usuario_por_cpf(cpf_busca)
 
