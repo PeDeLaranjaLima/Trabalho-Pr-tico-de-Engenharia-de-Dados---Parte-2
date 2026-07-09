@@ -35,7 +35,7 @@ class TesteMongo:
     # ==========================================
     # 1. CREATE (Inserir)
     # ==========================================
-    def inserir_usuario(self):
+    def inserir_usuario(self): # Inserir para cada coleção
         print("\n--- INSERIR NOVO USUÁRIO ---")
         
         # 1. Coleta de Dados Gerais (Comuns a todos)
