@@ -18,7 +18,6 @@ class TesteMongo:
             self.cliente = MongoClient(uri, serverSelectionTimeoutMS=5000)
             self.cliente.admin.command("ping")
 
-            # Ajustado: removido o ponto e vírgula ';' do nome do banco
             self.db = self.cliente["universidade"]
 
             # Criando uma variável independente para cada coleção
